@@ -17,7 +17,7 @@ export class AppComponent {
     password: "",
   };
 
-  onSubmit(form: NgForm) {
+  onSubmit() {
     this.submitted = true;
 
     this.data.mail = this.signupForm.value.mail;
